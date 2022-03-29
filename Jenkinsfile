@@ -8,7 +8,7 @@ pipeline{
 					branch 'devlop'
 				}
 				steps {
-					sh "clean package"
+					sh "mvn clean package"
 				}
 			}
 		}
